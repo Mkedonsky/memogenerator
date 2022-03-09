@@ -1,8 +1,9 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:memogenerator/blocs/create_mem_bloc.dart';
+import 'package:memogenerator/blocs/create_meme_bloc.dart';
 import 'package:memogenerator/resources/app_colors.dart';
 import 'package:provider/provider.dart';
+
+import '../blocs/create_meme_bloc.dart';
 
 class CreateMemePage extends StatefulWidget {
   @override
